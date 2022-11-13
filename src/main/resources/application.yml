@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://119.23.253.40:7001/bitCup?useUnicode=true&characterEncoding=UTF-8&useSSL=false&allowPublicKeyRetrieval=true
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+
+server:
+  port: 8081
+
+logging:
+  file:
+    name: ./log/registerSystem.log
